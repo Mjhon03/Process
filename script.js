@@ -5,8 +5,8 @@ function imageZoom(imgID, resultID) {
   var lens = document.createElement("DIV");
   lens.setAttribute("class", "img-zoom-lens");
   img.parentElement.insertBefore(lens, img);
-  var cx = result.offsetWidth / lens.offsetWidth;
-  var cy = result.offsetHeight / lens.offsetHeight;
+  let cx = (result.offsetWidth / lens.offsetWidth) * 0.5;
+  let cy = (result.offsetHeight / lens.offsetHeight) * 0.5;
   result.style.backgroundImage = `url('${img.src}')`;
   result.style.backgroundSize = `${img.width * cx}px ${img.height * cy}px`;
   lens.addEventListener("mousemove", moveLens);
