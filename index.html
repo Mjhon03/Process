@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller de proyectos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Gantt</h1>
+    </div>
+    <nav>
+      <a href="#cascada"><button class="nav-btn">Cascada</button></a>
+      <a href="#iterativo"><button class="nav-btn">Iterativos</button></a>
+      <a href="#equipo"><button class="nav-btn">Equipo de desarrollo</button></a>
+    </nav>
+  </header>
+  <main>
+    <section id="cascada" class="section">
+      <h1>Diagrama de Gantt en Cascada</h1>
+      <div class="img-zoom-container">
+        <img id="imgCascada" src="./assets/gantt_arkanoid_detailed.png" alt="Diagrama Gantt Cascada" class="zoomable">
+        <div id="resultCascada" class="img-zoom-result"></div>
+      </div>
+      <div class="conclusions">
+        <h2>Conclusiones</h2>
+        <p>El modelo en cascada se utiliza principalmente en proyectos donde los requisitos están bien definidos y es poco probable que cambien durante el desarrollo. Es especialmente adecuado para proyectos pequeños o medianos, en los que el alcance es claro y controlable desde el inicio. Este enfoque resulta útil en entornos donde se exige una documentación exhaustiva y detallada, como en instituciones gubernamentales o sectores altamente regulados. También es apropiado cuando el equipo de desarrollo tiene experiencia previa tanto en el dominio del problema como en las tecnologías a utilizar, lo que permite avanzar de forma secuencial y ordenada por cada fase del proyecto (análisis, diseño, implementación, pruebas y mantenimiento). La claridad en la separación de etapas facilita la gestión y el control del proyecto bajo condiciones predecibles.</p>
+      </div>
+    </section>
+    <section id="iterativo" class="section">
+      <h1>Diagrama de Gantt Iterativo</h1>
+      <div class="img-zoom-container">
+        <img id="imgIterativo" src="./assets/Arkanoid_Iterativo.png" alt="Diagrama Gantt Iterativo" class="zoomable">
+        <div id="resultIterativo" class="img-zoom-result"></div>
+      </div>
+      <div class="conclusions">
+        <h2>Conclusiones</h2>
+        <p>El modelo de desarrollo iterativo se utiliza en proyectos donde los requisitos no están completamente definidos desde el inicio y es probable que evolucionen a lo largo del tiempo. Es ideal cuando se busca una entrega temprana de funcionalidades parciales que puedan ser evaluadas y mejoradas con retroalimentación continua del cliente. Este enfoque es especialmente útil en proyectos complejos o innovadores, donde es difícil anticipar todas las necesidades desde el principio. También se adapta bien a equipos que trabajan de forma colaborativa y flexible, permitiendo revisiones frecuentes y ajustes progresivos del producto. Gracias a su naturaleza cíclica, el proceso iterativo mejora la calidad final del software y reduce riesgos al identificar problemas de forma temprana en cada iteración.</p>
+      </div>
+    </section>
+    <section id="equipo" class="section">
+      <h1>Equipo de trabajo</h1>
+      <div class="team">
+        <div class="member">
+          <img src="https://avatars.githubusercontent.com/u/87781533?v=4" alt="Mariana Cruz Gonzalez" class="avatar zoomable">
+          <h3>Mariana Cruz Gonzalez</h3>
+          <a href="https://github.com/Mari293"><h4>@Mari293</h4></a>
+        </div>
+        <div class="member">
+          <img src="https://avatars.githubusercontent.com/u/88491591?v=4" alt="Jhon Kevin Berrio Lopez" class="avatar zoomable">
+          <h3>Jhon Kevin Berrio Lopez</h3>
+          <a href="https://github.com/KevinL0pez"><h4>@KevinL0pez</h4></a>
+        </div>
+        <div class="member">
+          <img src="https://avatars.githubusercontent.com/u/88726743?v=4" alt="Jhon Maicol Montoya Florez" class="avatar zoomable">
+          <h3>Jhon Maicol Montoya Florez</h3>
+          <a href="https://github.com/Mjhon03"><h4>@Mjhon03</h4></a>
+        </div>
+        <div class="member">
+          <img src="https://avatars.githubusercontent.com/u/88749432?v=4" alt="Kevin Andres Usama Trespalacios" class="avatar zoomable">
+          <h3>Kevin Andres Usama Trespalacios</h3>
+          <a href="https://github.com/KevinA2208"><h4>@KevinA2208</h4></a>
+        </div>
+        <div class="member">
+          <img src="https://avatars.githubusercontent.com/u/82717865?v=4" alt="Luis Alberto Sotelo Perafan" class="avatar zoomable">
+          <h3>Luis Alberto Sotelo Perafan</h3>
+          <a href="https://github.com/luissotelo96"><h4>@Luissotelo96</h4></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© Todos los derechos reservados</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
